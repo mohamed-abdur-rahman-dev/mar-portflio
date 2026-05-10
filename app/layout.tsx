@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   description: `Portfolio of ${personal.name}. ${personal.tagline}. Specializing in Java Spring Boot, React, and AI Engineering.`,
   keywords:    ["Full-Stack Engineer", "Java", "Spring Boot", "React", "AI Engineer", "RAG", "Next.js", "Coimbatore"],
   authors:     [{ name: personal.name, url: personal.linkedin }],
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title:       `${personal.name} — Full-Stack & AI Engineer`,
     description: personal.tagline,
