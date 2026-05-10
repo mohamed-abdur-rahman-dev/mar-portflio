@@ -76,8 +76,8 @@ export const projects: Project[] = [
       { label: "Why Next.js?", value: "Needed SSR for SEO on public routes and seamless serverless API routes to securely proxy OpenAI calls." }
     ],
     links: {
-      github: "https://github.com/mohamed-abdur-rahman-dev",
-    },
+  github: "https://github.com/mohamed-abdur-rahman-dev/legal-assistant-rag",
+},
   },
   {
     id: "error-log",
@@ -99,8 +99,9 @@ export const projects: Project[] = [
       { label: "Why Redis?", value: "Implemented to cache frequent error lookups and enforce API rate-limiting to prevent OpenAI billing abuse." }
     ],
     links: {
-      demo: "#",
-    },
+  github: "https://github.com/mohamed-abdur-rahman-dev/error-log-frontend",
+  demo: "https://error-log-app.vercel.app/login",
+},
   },
   {
     id: "sim-dev",
@@ -121,9 +122,9 @@ export const projects: Project[] = [
       { label: "Why Queue?", value: "Crucial for decoupling the UI from the heavy 3-agent orchestration latency, entirely preventing Vercel's 10s request timeouts." }
     ],
     links: {
-      github: "https://github.com/mohamed-abdur-rahman-dev",
-      architecture: "/projects/ai-agent-platform",
-    },
+  github: "https://github.com/mohamed-abdur-rahman-dev/sim-dev",
+  architecture: "/projects/ai-agent-platform",
+},
   },
   {
     id: "sql-tool",
